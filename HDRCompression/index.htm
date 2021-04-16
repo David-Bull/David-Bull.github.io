@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HDR Compression</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+       <link rel="stylesheet" href="../css/style.css">
+</head>
+
+        <!-- you should probably put some google analytics / meta bits and pieces
+	    here : PRH 
+    <meta property="og:title" content="Paul Hill's Website"> etc.
+      <script async src="https://www.googletagmanager.com/gtag/js?id=??????????"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '??????????');
+  </script>
+    -->
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1><center>High Dynamic Range Video Compression Exploiting Luminance Masking</center></h1>
+                                <div class="container-sm">
+                                    <div class="row justify-content-md-center">
+									                                        <div class="col-sm-auto">
+                                            <p><a href='https://david-bull.github.io'>David R. Bull</a></p>
+                                        </div>
+										 <div class="col-sm-auto">
+                                            <p>Yang Zhang</p>
+                                        </div>
+                                        									
+                                    </div>
+									<center><p>University of Bristol and BBC R&D</p></center>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="../uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="../bvilogo.png" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="../VILogo.jpg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>Contribution</h2>
+                The human visual system (HVS) exhibits nonlinear sensitivity to the distortions introduced by lossy image and video coding. This effect is due to the luminance masking, contrast masking, and spatial and temporal frequency masking characteristics of the HVS. This work proposes a novel perception-based quantization to remove nonvisible information in high dynamic range (HDR) colour pixels by exploiting luminance masking so that the performance of the High Efficiency Video Coding (HEVC) standard is improved for HDR content. 
+<br>
+<br>
+A profile scaling based on a tone-mapping curve computed for each HDR frame is introduced. The quantization step is then perceptually tuned on a transform unit basis. The proposed method has been integrated into the HEVC reference model for the HEVC range extensions (HM-RExt), and its performance was assessed by measuring the bitrate reduction against the HM-RExt. The proposed method achieves significant bitrate savings, up to 42.2%, with an average of 12.8%, compared with HEVC at the same quality (based on HDR-visible difference predictor-2 and subjective evaluations).
+<br>
+<br>
+<p><img src="idsq.svg" width="100%" height="20%" class="center" /></p>
+
+            </div>
+            <hr />
+            <div class="container-md">
+                <h2 id="downloads">Collaborators</h2>
+This work was conducted in Partnership with BBC R&D. Collaborators were Dr. Matteo Naccari and Dr. Marta Mrak.
+
+            </div>
+			<hr />
+            <div class="container-md">
+                <h2 id="downloads">Results</h2>
+We achieve bitrate savings, up to 42.2%, with an average of 12.8%, compared with HEVC at the same quality (based on HDR-visible difference predictor-2 and subjective evaluations).
+
+            </div>
+			<hr />
+            <div class="container-md">
+                <h2>Citation</h2>
+				<pre class="citation">
+@article{zhang2015high,
+  title={High dynamic range video compression exploiting luminance masking},
+  author={Zhang, Yang and Naccari, Matteo and Agrafiotis, Dimitris and Mrak, Marta and Bull, David R},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={26},
+  number={5},
+  pages={950--964},
+  year={2015},
+  publisher={IEEE}
+}<A HREF="https://ieeexplore.ieee.org/abstract/document/7095562">[paper]</A></pre> 
+
+            </div>
+			<hr />
+            
+
+        </div>
+    </div>
+</body>
+
+</html>
